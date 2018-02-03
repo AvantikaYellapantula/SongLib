@@ -9,33 +9,30 @@ import javafx.stage.Stage;
 
 public class SongLib extends Application {
 
+	Stage window;
+	Parent root;
+	Parent root_alert;
+	
     public static void main(String[] args) {
         launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("songLib_layout.fxml"));
-        primaryStage.setTitle("Song Library");
+        window=primaryStage;
+    	root = FXMLLoader.load(getClass().getResource("songLib_layout.fxml"));
+       
+        window.setTitle("Song Library");
         
     
-        
-        
     
-    
-    
-    
-    
-        primaryStage.setScene(new Scene(root, 685, 688));
-        primaryStage.show();
+        window.setScene(new Scene(root, 685, 688));
+        window.show();
     
     }//start method done
     
     
-    public void addClicked() {
-    	
-    	System.out.println("Add Button Clicked");
-    }
+   
 
 
 }
