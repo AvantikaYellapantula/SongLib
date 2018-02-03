@@ -20,6 +20,7 @@ public class SongLib extends Application {
         
     
         
+        
     
     
     
@@ -28,6 +29,12 @@ public class SongLib extends Application {
         primaryStage.setScene(new Scene(root, 685, 688));
         primaryStage.show();
     
+    }//start method done
+    
+    
+    public void addClicked() {
+    	
+    	System.out.println("Add Button Clicked");
     }
 
 
