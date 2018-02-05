@@ -10,8 +10,15 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class SongLib extends Application {
+<<<<<<< HEAD:application/SongLib.java
 	public ArrayList<SongNode> arrayList;
 	private SongLibrary SongList;
+=======
+
+	Stage window;
+	Parent root;
+	Parent root_alert;
+>>>>>>> 0a2b1517d4b7ecf9371aa904703969d10c9841d6:SongLib/src/application/SongLib.java
 	
     public static void main(String[] args) {
       	SongLibrary library = new SongLibrary();
@@ -31,6 +38,7 @@ public class SongLib extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+<<<<<<< HEAD:application/SongLib.java
     	//SongLibrary library = new SongLibrary();
   	//library.parse();
     	
@@ -44,13 +52,22 @@ public class SongLib extends Application {
         
         
     
+=======
+        window=primaryStage;
+    	root = FXMLLoader.load(getClass().getResource("songLib_layout.fxml"));
+       
+        window.setTitle("Song Library");
+        
+    
+    
+        window.setScene(new Scene(root, 685, 688));
+        window.show();
+    
+>>>>>>> 0a2b1517d4b7ecf9371aa904703969d10c9841d6:SongLib/src/application/SongLib.java
     }//start method done
     
     
-    public void addClicked() {
-    	
-    	System.out.println("Add Button Clicked");
-    }
+   
 
 
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button mnemonicParsing="false" text="Yes" translateX="20.0" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="214.0" fx:id="yButton">
+         <padding>
+            <Insets bottom="8.0" left="20.0" right="20.0" top="8.0" />
+         </padding>
+      </Button>
+      <Button layoutX="52.0" layoutY="157.0" mnemonicParsing="false" text="No" translateX="20.0" AnchorPane.leftAnchor="172.0" AnchorPane.topAnchor="117.0" fx:id="nButton">
+         <padding>
+            <Insets bottom="8.0" left="20.0" right="20.0" top="8.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>
